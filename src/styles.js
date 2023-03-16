@@ -21,3 +21,11 @@ export const Titulo = styled.a`
 font-size: 25px;
 color: #00FF00;
 `;
+
+export const BenVindo = styled.h1`
+font-size: ${props => `${props.tamanho}px`};
+color: ${props => `#${props.cor}`};
+`;
+
+
+

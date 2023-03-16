@@ -1,6 +1,6 @@
 import React from 'react';
 //import './App.css';
-import { Container, Head, Titulo } from './styles';
+import { Container, Head, Titulo, BenVindo} from './styles';
 
 function App() {
   return (
@@ -9,11 +9,19 @@ function App() {
             <Titulo>Projeto Styled</Titulo>
         </Head>   
 
+        <BenVindo cor="0000FF" tamanho={35}>
+          Bem vindo ao sistema!
+        </BenVindo>
+
     </Container>
   );
 }
 
 export default App;
+
+
+
+
 
 
 
